@@ -110,7 +110,7 @@ function App() {
 
                         <button
                             type="submit"
-                            className="mt-4 hover:scale-105 hover:translate-y-1 hover:cursor-pointer transform transition-all duration-300 bg-gradient-to-r from-pink-400 to-purple-400 text-white hover:from-pink-500 hover:to-purple-500 hover:shadow-lg hover:shadow-pink-300/50 hover:-translate-y-1 transform transition-all duration-300 font-bold text-xl rounded-full">
+                            className="mt-4 hover:scale-105 hover:translate-y-1 hover:cursor-pointer  transition-all duration-300 bg-gradient-to-r from-pink-400 to-purple-400 text-white hover:from-pink-500 hover:to-purple-500 hover:shadow-lg hover:shadow-pink-300/50  p-4 transition-all duration-300 font-bold text-xl rounded-full">
                             حفظ النسب ✨
                         </button>
                     </form>
@@ -124,7 +124,7 @@ function App() {
                             <p className="text-gray-600 mb-6 text-center">تم حفظ النسب الخاصة بك بنجاح.</p>
                             <button
                                 onClick={() => setShowMessage(false)}
-                                className="px-8 py-2 hover:cursor-pointer hover:scale-105 hover:-translate-y-1 transform transition-all duration-300 bg-pink-500 text-white rounded-full font-bold hover:bg-pink-600 transition-colors shadow-md hover:shadow-lg">
+                                className="px-8 py-2 hover:cursor-pointer hover:scale-105 hover:-translate-y-1 hover:shadow-pink-300/50 transform  duration-200 bg-pink-600 text-white rounded-full font-bold hover:bg-pink-600 transition-colors shadow-md hover:shadow-lg">
                                 إغلاق
                             </button>
                         </div>
@@ -140,7 +140,7 @@ function App() {
                 <div className="bg-white/70 backdrop-blur-md rounded-3xl shadow-xl p-8 border border-pink-200">
                     <form action=" " onSubmit={(e) => e.preventDefault()} className="flex flex-col gap-4 items-center justify-center mx-auto mb-10">
                         <label htmlFor="total-amount" className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 text-center">
-                            أدخلي إجمالي المبلغ المتاح <span>💰</span>
+                            أدخلي إجمالي المبلغ المتاح <span >💰</span>
                         </label>
                         <input
                             className="border-2 border-pink-300 bg-white/80 p-4 rounded-2xl text-2xl text-center w-72 shadow-inner focus:outline-none focus:border-pink-500 focus:ring-4 focus:ring-pink-100 transition-all"
